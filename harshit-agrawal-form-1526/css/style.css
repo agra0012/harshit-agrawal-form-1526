@@ -1,0 +1,212 @@
+.container {
+    max-width: 50rem;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    font-size: 1rem;
+}
+
+
+fieldset {
+    background-color: #F5F5F5;
+    border-style: groove;
+    margin-top: 2rem;
+}
+
+
+legend {
+    width: 16.8rem;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    border-style: groove;
+    background-color: white;
+    font-size: 2rem;
+}
+
+/*first name css*/
+
+#fn-box {
+    float: left;
+    line-height: 1.8rem;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+}
+
+#fn-box input {
+    width: 22.2rem;
+}
+
+/*email css*/
+
+#email-box {
+    line-height: 1.8rem;
+    margin-top: 1rem;
+}
+
+#email-box input {
+    width: 22.2rem;
+}
+
+/*message css*/
+
+#message-box {
+    clear: both;
+    line-height: 2.3rem;
+    margin-top: 1rem;
+}
+
+#message-box input {
+    width: 47.5rem;
+    height: 2rem;
+}
+
+/*submit box css*/
+
+#collect {
+    margin-top: 2rem;
+    background-color: #6495ED;
+    color: white;
+    font-size: 1rem;
+    width: 5rem;
+    height: 2rem;
+}
+
+/*media query for max-width 50rem*/
+
+@media (max-width: 50rem) {
+    .container {
+        max-width: 50rem;
+        min-width: 40rem;
+    }
+}
+
+/*media query for max-width 40rem*/
+
+@media (max-width: 40rem) {
+    .container {
+        max-width: 40rem;
+        min-width: 26rem;
+    }
+
+    legend {
+        width: 16.8rem;
+        height: 3rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        border-style: groove;
+        background-color: white;
+        font-size: 2rem;
+    }
+
+    /*first-name box css*/
+
+    #fn-box {
+        float: left;
+        line-height: 1.8rem;
+        margin-top: 1rem;
+        margin-right: .5rem;
+    }
+
+    #fn-box input {
+        width: 17.5rem;
+    }
+
+    /*email box css*/
+
+    #email-box {
+        line-height: 1.8rem;
+        margin-top: 1rem;
+    }
+
+    #email-box input {
+        width: 17.5rem;
+    }
+
+    /*message box css*/
+
+    #message-box {
+        clear: both;
+        line-height: 2.3rem;
+        margin-top: 1rem;
+    }
+
+    #message-box input {
+        width: 36rem;
+        height: 2rem;
+    }
+
+    /*submit box css*/
+
+    #collect {
+        margin-top: 2rem;
+        background-color: #6495ED;
+        color: white;
+        font-size: 1rem;
+        width: 5rem;
+        height: 2rem;
+    }
+}
+
+/*media query for max-width 25rem*/
+
+@media (max-width: 25rem) {
+    .container {
+        max-width: 25rem;
+
+    }
+
+    legend {
+        width: 16.8rem;
+        height: 3rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        border-style: groove;
+        background-color: white;
+        font-size: 2rem;
+    }
+
+    /*first name box css*/
+
+    #fn-box {
+        line-height: 1.8rem;
+        margin-top: 1rem;
+    }
+
+    #fn-box input {
+        width: 21rem;
+    }
+
+    /*email box css*/
+
+    #email-box {
+        line-height: 1.8rem;
+        margin-top: 1rem;
+    }
+
+    #email-box input {
+        width: 21rem;
+    }
+
+    /*message box css*/
+
+    #message-box {
+        line-height: 2.3rem;
+        margin-top: 1rem;
+    }
+
+    #message-box input {
+        width: 21rem;
+        height: 2rem;
+    }
+
+    /*submit box css*/
+
+    #collect {
+        margin-top: 2rem;
+        background-color: #6495ED;
+        color: white;
+        font-size: 1rem;
+        width: 5rem;
+        height: 2rem;
+    }
+}
